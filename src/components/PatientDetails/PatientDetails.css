@@ -1,0 +1,74 @@
+.patient-details-container {
+    margin-top: -1072px;
+    margin-left: 1216px;
+    width: 367px;
+    height: 740px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.patient-photo img {
+    margin-top: 32px;
+    margin-left: 83px;
+    width: 200px;
+    height: 200px;
+}
+
+.patient-name-details {
+    margin-top: 24px;
+    text-align: center;
+    font: normal normal 800 24px/33px Manrope;
+    color: #072635;
+}
+
+.patient-info-details {
+    margin-top: 32px;
+    margin-left: 20px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.detail-item img {
+    width: 42px;
+    height: 42px;
+}
+
+.description-header {
+    text-align: left;
+    font: normal normal medium 14px/19px Manrope;
+    color: #072635;
+    text-transform: capitalize;
+    margin-left: 16px;
+}
+
+.description-detail {
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    color: #072635;
+    text-transform: capitalize;
+    margin-left: 16px;
+    margin-top: 4px;
+}
+
+.show-info-btn {
+    margin-top: 16px;
+    margin-left: 73px;
+    width: 220px;
+    height: 41px;
+    background: #01F0D0;
+    border-radius: 41px;
+    border: none;
+    cursor: pointer;
+}
+
+.show-info-btn:hover {
+    background-color: #2bb89c;
+}

@@ -1,0 +1,64 @@
+.lab-results-container {
+    margin-top: 32px;
+    margin-left: 1215px;
+    width: 367px;
+    height: 296px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lab-results-title {
+    margin: 20px;
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    color: #072635;
+}
+
+.lab-results-list {
+    list-style: none;
+    margin-left: 22px;
+    margin-top: -4px;
+    padding: 0;
+    top: 949px;
+    left: 1237px;
+    width: 315px;
+    height: 40px;
+    background: #FFFFFF;
+}
+
+.lab-result-item {
+    width: 315px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.lab-result-item:hover {
+    background-color: #F6F7F8;
+}
+
+.lab-result-name {
+    padding-top: 11px;
+    padding-left: 16px;
+    text-align: left;
+    font: normal normal normal 13px/18px Manrope;
+    color: #072635;
+    text-transform: capitalize;
+}
+
+.icon-download {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.lab-results-empty {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    margin: 20px 0;
+}

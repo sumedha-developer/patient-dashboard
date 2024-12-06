@@ -1,0 +1,96 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px;
+    width: 1564px;
+    height: 72px;
+    background-color: #ffffff;
+    border-radius: 70px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.logo-image {
+    width: 211px;
+    height: 48px;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    font: normal normal bold 14px/19px Manrope;
+    color: #072635;
+    cursor: pointer;
+    gap: 9px;
+}
+
+.nav-link.active {
+    background: #01F0D0;
+    padding: 11px 16px;
+    border-radius: 41px;
+}
+
+.nav-icon {
+    height: 17px;
+}
+
+.navbar-profile {
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+    gap: 8px;
+}
+
+.profile-info {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-image {
+    width: 44px;
+    height: 44px;
+}
+
+.profile-name {
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    color: #072635;
+}
+
+.profile-role {
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    color: #707070;
+}
+
+.verticle-line {
+    border-left: 1px solid #EDEDED;
+    height: 44px;
+    margin: 0 12px;
+}
+
+.settings-icon {
+    width: 19px;
+    height: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+.verticle-more-icon {
+    margin-left: 12px;
+    width: 4px;
+    height: 18px;
+    color: #333;
+    cursor: pointer;
+}

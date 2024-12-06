@@ -1,0 +1,192 @@
+.diagnosis-history {
+    margin-top: -1054px;
+    margin-left: 417px;
+    width: 766px;
+    height: 673px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 20px;
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    color: #072635;
+}
+
+.chart-container {
+    margin: 20px;
+    background: #F4F0FE;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.chart-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-header {
+    text-align: left;
+    font: normal normal bold 18px/24px Manrope;
+    color: #072635;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    gap: 151px;
+}
+
+.chart-title {
+    margin: 16px;
+}
+
+.expand-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: right;
+    font: normal normal normal 14px/19px Manrope;
+    color: #072635;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 21px;
+}
+
+.text-expand {
+    text-align: left;
+}
+
+.icon-expand {
+    width: 11px;
+    height: 6px;
+    margin-top: 7px;
+    margin-left: 16px;
+}
+
+.chart {
+    margin: -1px -16px 16px 16px;
+    height: 222px;
+}
+
+.stats-area {
+    margin-top: 16px;
+    width: 208px;
+}
+
+.stat-label {
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    color: #072635;
+    text-transform: capitalize;
+}
+
+.systolic {
+    width: 14px;
+    height: 14px;
+    background: #E66FD2;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.diastolic {
+    width: 14px;
+    height: 14px;
+    background: #8C6FE6;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.stat-value {
+    text-align: left;
+    font: normal normal bold 22px/30px Manrope;
+    color: #072635;
+    text-transform: capitalize;
+    margin: 8px 0;
+}
+
+.stat-detail {
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    color: #072635;
+}
+
+.icon-up {
+    width: 10px;
+    height: 5px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.icon-down {
+    width: 10px;
+    height: 5px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.health-metrics {
+    height: 242px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}
+
+.metric-card {
+    display: inline-block;
+    width: 228px;
+    height: 242px;
+    border-radius: 12px;
+}
+
+.respiratory {
+    background: #E0F3FA;
+}
+
+.icon-metrics {
+    margin: 16px;
+    width: 96px;
+    height: 96px;
+}
+
+.metric-title {
+    text-align: left;
+    font: normal normal medium 16px/22px Manrope;
+    color: #072635;
+    text-transform: capitalize;
+    margin-left: 16px;
+}
+
+.metric-data {
+    text-align: left;
+    font: normal normal 800 30px/41px Manrope;
+    color: #072635;
+    margin-left: 16px;
+}
+
+.metric-status {
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    color: #072635;
+    margin-left: 16px;
+    margin-top: 17px;
+}
+
+.temperature {
+    background: #FFE6E9;
+}
+
+.heart {
+    background: #FFE6F1;
+}

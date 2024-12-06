@@ -1,0 +1,96 @@
+.diagnostic-container {
+    margin-top: 32px;
+    margin-left: 417px;
+    width: 766px;
+    height: 349px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.diagnostic-title {
+    margin: 20px;
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    color: #072635;
+}
+
+.diagnostic-table {
+    margin: 20px;
+}
+
+.table-header {
+    width: 726px;
+    height: 48px;
+    background: #F6F7F8;
+    border-radius: 24px;
+}
+
+.table-header span {
+    position: relative;
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    color: #072635;
+    top: 15px;
+}
+
+.table-header-name {
+    margin-left: 16px;
+}
+
+.table-header-description {
+    margin-left: 104px;
+}
+
+.table-header-status {
+    margin-left: 285px;
+}
+
+.table-content {
+    margin-top: 10px;
+    width: 723px;
+    height: 180px;
+    overflow-y: scroll;
+}
+
+.table-row {
+    width: 723px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #F6F7F8;
+    margin-bottom: 7px;
+}
+
+.table-row span {
+    position: relative;
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    color: #072635;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 11px 0 10px 0;
+}
+
+.table-column-name {
+    margin-left: 16px;
+    width: 232px;
+}
+
+.table-column-description {
+    width: 363px;
+}
+
+.table-column-status {
+    width: 112px;
+}
+
+.table-row:hover {
+    background-color: #F6F7F8;
+}
+
+.diagnostic-empty {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    margin: 20px 0;
+}
